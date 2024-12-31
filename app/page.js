@@ -49,10 +49,10 @@ function HomePage() {
       } else {
         return (
         <main className="flex min-h-screen items-center justify-center">
-        <title>New Years is coming!</title>
+        <title>New Year is coming!</title>
         <div className="text-center max-w-md">
-          <p className="p-4 bg-gradient-to-b from-zinc-200 border-b border-gray-300 rounded-xl backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit">
-            New Years in&nbsp;
+          <p>
+            New Year in&nbsp;
             <code className="font-mono font-bold">{days}d {hours}h {minutes}m {seconds}s</code>
           </p>
           <Link href="https://github.com/Mikasuru"><p>Made by Mikasuru</p></Link>
